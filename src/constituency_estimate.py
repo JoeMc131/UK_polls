@@ -42,7 +42,7 @@ map_parties = {
 }
 
 def constituency_transform():
-    df = pd.read_csv('../data/constituency_data.csv')
+    df = pd.read_csv('data/constituency_data.csv')
 
     df['Other'] =  df['All other candidates']
     df['Other'] += df['DUP']
