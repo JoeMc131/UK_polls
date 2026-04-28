@@ -68,6 +68,7 @@ def constituency_transform():
             ]
         )
 
+        # compare percent change of each constituency for each party (simple, make more advanced)
         per_change = (constituency_vector - last_vector)/last_vector 
 
         per_changes[df['Constituency name'][i]] = per_change
