@@ -6,3 +6,4 @@ folium
 beautifulsoup4
 seaborn
 prophet
+plotly
