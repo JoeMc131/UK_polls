@@ -37,7 +37,7 @@ def get_polling_data(url = 'https://en.wikipedia.org/wiki/Opinion_polling_for_th
                            class_=['wikitable', 'sortable', 'mw-datatable', 'jquery-tablesorter']
     )[:3]
 
-    rows = [table.find_all('tr')[2:] for table in tables]
+    rows = [table.find_all('tr')[1:] for table in tables]
     # print(f"Length of rows = {len(rows)}")
     rows[-1].pop()
     rows[-1].pop()
