@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 @st.cache_data
-def make_pred(df, periods = 90):
+def make_pred(df, periods = 15):
     """
     Description
     -----------------
