@@ -131,8 +131,8 @@ for party in party_cols:
     ds = df_ma.date
 
     input_dict = {
-        'ds':ds,
-        'y':y
+        'ds':ds[-180:],
+        'y':y[-180:]
     }
 
     input_df = pd.DataFrame(input_dict)
