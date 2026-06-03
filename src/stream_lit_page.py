@@ -161,9 +161,6 @@ st.pyplot(fig)
 st.markdown('Dashed lines and shaded regions represent future extrapolations using [Prophet](https://facebook.github.io/prophet/) from Meta')
 
 
-# options = st.menu_button(label = 'Options', options=['MRP poll', 'User defined', '180 days from now'])
-
-
 # ----------- MRP POLL -----------------------
 
 
